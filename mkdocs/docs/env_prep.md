@@ -172,20 +172,3 @@ The output should be similar to the following:
   ![IaC output](./images/iac_output.png)
   <figcaption><small>IaC output</small></figcaption>
 </figure>
-
-# TODO
-Lista:
-
-- [x] Estatísticas de gols por partidas eliminatórias  
-- [x] Gols por chutes na área do pênalti  
-- [x] Distância em que fez mais gols  
-- [x] Gols no último minuto  
-- [x] Gols por tipo de chute  
-- [x] Gols nos locais v e y  
-- [x] Relação entre potência do chute e gol  
-- [x] Relação entre distância do chute e gol  
-- [x] Áreas dos chutes  <!-- Profiling -->
-- [x] Quantidade de chutes por tipo de chute  <!-- Profiling -->
-- [x] Quantidade de chutes por potência de chute  <!-- Profiling -->
-- [x] Quantidade de chutes por distância  <!-- Profiling -->
-- [x] Verificar quantidade de jogos na semana (período que teve mais jogos)  
