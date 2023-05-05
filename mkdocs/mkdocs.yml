@@ -1,3 +1,77 @@
-site_name: My Docs
+# Project Info
+site_name: Clear Strategy's Challenge
+site_author: Pedro Nascimento
+site_description: >-
+    Documentação técnica e funcional de todos os projetos de dados do Mater Dei
+
+# Repository
+repo_name: GitHub - Pedro Nascimento
+repo_url: https://github.com/PetTher/cs_eda
+edit_uri: ""
+
+# Copyright
+copyright: Copyright (c) 2023 Pedro Nascimento
+
 theme:
   name: material
+
+  static_templates:
+    - 404.html
+
+  features:
+    # - navigation.tabs
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+  palette:
+
+    # Palette toggle for dark mode
+    - scheme: default
+      primary: light blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for light mode
+    - scheme: slate
+      primary: white
+      accent: cyan
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+# Árvore de páginas
+nav:
+  - Introduction: index.md
+  - Environment Preparation: env_prep.md
+  - Data Cleaning and Transformations: clean_transf.md
+  - Exploratory Analysis:
+    - Goals Stats: goals_stats.md
+    - Shots Stats: shots_stats.md
+    - Shots vs Goals: shots_x_goals.md
+    - Performance: performance.md
+  - Pandas Profiling: profile.html
